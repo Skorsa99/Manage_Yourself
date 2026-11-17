@@ -1,6 +1,6 @@
 # Manage Yourself
 
-A [Claude Code skill](https://code.claude.com/docs/en/skills) that turns your session into a **supervisor**. It plans the work, hands each piece to a subagent on the right model, and keeps track of your 5-hour and weekly usage limits.
+A [Claude Code skill](https://code.claude.com/docs/en/skills) that plans work, delegates it to subagents on the right model, and stays within your 5-hour and weekly usage limits by pausing until the next reset.
 
 ## What it does
 
@@ -101,6 +101,10 @@ You can check your usage yourself at any time:
 
 - The usage snapshot is only as fresh as the last status line update, so the skill keeps a safety margin.
 - Usage estimates start as rough guesses and improve as the usage log fills up.
+
+## Fair use
+
+This skill does not get around usage limits. It reads them and respects them: when a window is nearly used up, work waits for the reset. It's meant for your own, ordinary use of Claude Code, as assumed by Anthropic's plan limits, not for running Claude around the clock. Anthropic can change limits at any time.
 
 ## License
 

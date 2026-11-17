@@ -8,7 +8,7 @@
     {
       "name": "manage-yourself",
       "source": "./",
-      "description": "Turns a Claude Code session into a supervisor that delegates to subagents on the right model and budgets 5-hour and weekly usage limits."
+      "description": "Plans work, delegates it to subagents on the right model, and stays within your 5-hour and weekly usage limits by pausing until the next reset."
     }
   ]
 }
