@@ -1,0 +1,14 @@
+{
+  "name": "manage-yourself",
+  "description": "The Manage Yourself skill: supervisor mode for Claude Code with model selection and usage-limit budgeting.",
+  "owner": {
+    "name": "Samuel Skorsetz"
+  },
+  "plugins": [
+    {
+      "name": "manage-yourself",
+      "source": "./",
+      "description": "Turns a Claude Code session into a supervisor that delegates to subagents on the right model and budgets 5-hour and weekly usage limits."
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "name": "manage-yourself",
+  "description": "Turns a Claude Code session into a supervisor that delegates to subagents on the right model and budgets 5-hour and weekly usage limits.",
+  "version": "0.1.0",
+  "author": {
+    "name": "Samuel Skorsetz"
+  },
+  "repository": "https://github.com/Skorsa99/Manage_Yourself",
+  "license": "MIT",
+  "keywords": ["subagents", "delegation", "orchestration", "usage-limits"]
+}
